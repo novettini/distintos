@@ -166,7 +166,7 @@
    justify-content: center;
  }
 
- @media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
 
    #pizza {
      display: grid;
@@ -260,8 +260,8 @@
    }
 
    input {
-     width: 100%;
-     height: 50%;
+     width: 136%;
+     height: 60%;
      min-height: 6%;
    }
 
@@ -296,11 +296,4 @@
    }
  }
 
- @media only screen and (max-width: 400px) {
-#pizza{
-  grid-template-columns: repeat(1, 65% 25% 10%);
-}
-#empanada {
-  max-width: 100%;
- }
- }
+ 
