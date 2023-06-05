@@ -515,6 +515,13 @@
      font-size: x-large;
      /* justify-content: center; */
      align-items: baseline;
-
    }
+ }
+ @media only screen and (max-width: 400px) {
+#pizza{
+  grid-template-columns: repeat(1, 65% 25% 10%);
+}
+#empanada {
+  max-width: 100%;
+ }
  }
